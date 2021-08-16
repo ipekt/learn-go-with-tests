@@ -4,7 +4,7 @@ Exercise: https://quii.gitbook.io/learn-go-with-tests/
 
 ## Tests
 
-`cd src && go test`
+`cd src && go test -v`
 
 ## Notes
 
