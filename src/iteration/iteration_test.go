@@ -10,7 +10,7 @@ func TestRepeat(t *testing.T) {
 	expected := "aaaaaa"
 
 	if repeated != expected {
-		t.Errorf("expected %q buy got %q", expected, repeated)
+		t.Errorf("expected %q but got %q", expected, repeated)
 	}
 }
 
