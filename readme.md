@@ -4,7 +4,17 @@ Exercise: https://quii.gitbook.io/learn-go-with-tests/
 
 ## Tests
 
-`cd src && go test -v`
+### Running Tests
+
+`cd src/hello && go test`
+
+### Examples
+
+`cd src/adder && go test -v`
+
+### Benchmarks
+
+`cd src/iteration && go test -bench=.`
 
 ## Notes
 
