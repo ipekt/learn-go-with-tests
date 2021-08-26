@@ -16,6 +16,10 @@ Exercise: https://quii.gitbook.io/learn-go-with-tests/
 
 `cd src/iteration && go test -bench=.`
 
+### Test Coverage
+
+`cd src/sum && go test -cover`
+
 ## Notes
 
 Run `go mod init SOMENAME` for each folder
