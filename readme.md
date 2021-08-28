@@ -23,3 +23,5 @@ Exercise: https://quii.gitbook.io/learn-go-with-tests/
 ## Notes
 
 Run `go mod init SOMENAME` for each folder
+
+Use `errcheck` linter to find tests that does not check all error conditions.
